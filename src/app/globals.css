@@ -1,26 +1,76 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --font-display: var(--font-cormorant);
+  --font-sans: var(--font-montserrat);
+
+  --color-primary: #1a1a1a;
+  --color-background-light: #ffffff;
+  --color-background-dark: #0f0f0f;
+}
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1a1a1a;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.light {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #0f0f0f;
+  --foreground: #ffffff;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Unified Typography System */
+h1 {
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(2rem, 8vw, 4rem);
+  /* Responsive but controlled */
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: var(--font-cormorant), serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+h3,
+.font-display {
+  font-family: var(--font-cormorant), serif;
+}
+
+p,
+.body-text {
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 0.9375rem;
+  /* ~15px */
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+/* Subtle image filter for consistency */
+.img-soft {
+  filter: grayscale(15%);
+  transition: filter 0.5s ease;
 }
