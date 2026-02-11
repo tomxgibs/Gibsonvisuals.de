@@ -23,7 +23,7 @@ export default function Footer() {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/gibsonvisuals.fotografie/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-black dark:text-white hover:opacity-50 transition-opacity duration-300"
