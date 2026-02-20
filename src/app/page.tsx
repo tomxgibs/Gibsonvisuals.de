@@ -9,7 +9,7 @@ const categories = [
   { id: "portrait", title: "Portrait", img: "/images/Luise-4.jpg" },
   { id: "wedding", title: "Hochzeiten", img: "/images/Trauung-102.jpg" },
   { id: "newborn", title: "Newborn", img: "/images/AlessandroElia-80.jpg" },
-  { id: "family", title: "Familien", img: "/images/FamilieAlbs-2.jpg" },
+  { id: "family", title: "Familien", img: "/images/Famillien/FamilieHermann-21.1.jpg" },
 ];
 
 export default function Home() {

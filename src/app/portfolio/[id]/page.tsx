@@ -149,11 +149,28 @@ const categoryDetails: Record<string, CategoryData & { images: string[] }> = {
         id: "family",
         title: "Familien",
         displayTitle: "Familien",
-        img: "/images/FamilieAlbs-2.jpg",
+        img: "/images/Famillien/FamilieHermann-21.1.jpg",
         images: [
-            "/images/Famillien/FamilieAlbs-38.jpg", "/images/Famillien/FamilieAlbs-13.jpg", "/images/Famillien/FamilieAlbs-2.jpg",
-            "/images/Famillien/FamilieAlbs-58.jpg", "/images/Famillien/FamilieAlbs-51.jpg", "/images/Famillien/FamilieAlbs-43.jpg",
-            "/images/Famillien/FamilieAlbs-8.jpg", "/images/Famillien/FamilieAlbs-26.jpg", "/images/Famillien/FamilieAlbs-22.jpg"
+            "/images/Famillien/FamilieHermann-1.jpg", "/images/Famillien/FamilieHermann-10.1.jpg", "/images/Famillien/FamilieHermann-10.jpg",
+            "/images/Famillien/FamilieHermann-11.1.jpg", "/images/Famillien/FamilieHermann-11.2.jpg", "/images/Famillien/FamilieHermann-11.3.jpg",
+            "/images/Famillien/FamilieHermann-11.4..jpg", "/images/Famillien/FamilieHermann-11.jpg", "/images/Famillien/FamilieHermann-12.jpg",
+            "/images/Famillien/FamilieHermann-13.1.jpg", "/images/Famillien/FamilieHermann-13.jpg", "/images/Famillien/FamilieHermann-14.jpg",
+            "/images/Famillien/FamilieHermann-15.jpg", "/images/Famillien/FamilieHermann-16.1.jpg", "/images/Famillien/FamilieHermann-16.jpg",
+            "/images/Famillien/FamilieHermann-17.jpg", "/images/Famillien/FamilieHermann-18.1.jpg", "/images/Famillien/FamilieHermann-18.jpg",
+            "/images/Famillien/FamilieHermann-19.1.jpg", "/images/Famillien/FamilieHermann-19.jpg", "/images/Famillien/FamilieHermann-2.jpg",
+            "/images/Famillien/FamilieHermann-20.1.jpg", "/images/Famillien/FamilieHermann-20.2.jpg", "/images/Famillien/FamilieHermann-20.jpg",
+            "/images/Famillien/FamilieHermann-21.1.jpg", "/images/Famillien/FamilieHermann-21.jpg", "/images/Famillien/FamilieHermann-22.jpg",
+            "/images/Famillien/FamilieHermann-23.jpg", "/images/Famillien/FamilieHermann-24.jpg", "/images/Famillien/FamilieHermann-25.1.jpg",
+            "/images/Famillien/FamilieHermann-25.jpg", "/images/Famillien/FamilieHermann-26.1.jpg", "/images/Famillien/FamilieHermann-26.2.jpg",
+            "/images/Famillien/FamilieHermann-26.3.jpg", "/images/Famillien/FamilieHermann-27.1.jpg", "/images/Famillien/FamilieHermann-27.2.jpg",
+            "/images/Famillien/FamilieHermann-27.jpg", "/images/Famillien/FamilieHermann-28.1.jpg", "/images/Famillien/FamilieHermann-28.2.jpg",
+            "/images/Famillien/FamilieHermann-3.jpg", "/images/Famillien/FamilieHermann-30.jpg", "/images/Famillien/FamilieHermann-31.jpg",
+            "/images/Famillien/FamilieHermann-32.jpg", "/images/Famillien/FamilieHermann-33.jpg", "/images/Famillien/FamilieHermann-34.jpg",
+            "/images/Famillien/FamilieHermann-35.jpg", "/images/Famillien/FamilieHermann-36.jpg", "/images/Famillien/FamilieHermann-37.jpg",
+            "/images/Famillien/FamilieHermann-38.jpg", "/images/Famillien/FamilieHermann-39.jpg", "/images/Famillien/FamilieHermann-4.1.jpg",
+            "/images/Famillien/FamilieHermann-4.jpg", "/images/Famillien/FamilieHermann-40.jpg", "/images/Famillien/FamilieHermann-5.jpg",
+            "/images/Famillien/FamilieHermann-6.1.jpg", "/images/Famillien/FamilieHermann-6.jpg", "/images/Famillien/FamilieHermann-7.jpg",
+            "/images/Famillien/FamilieHermann-8.jpg", "/images/Famillien/FamilieHermann-9.1.jpg", "/images/Famillien/FamilieHermann-9.jpg"
         ]
     },
 };
