@@ -27,10 +27,13 @@ const sections = [
         content: (
             <div className="space-y-6 text-black">
                 <p>
-                    Ihr könnt zwischen einem Shooting zu Hause als Homestory, Outdoor oder in meinem Studio in Oerlinghausen wählen.
+                    Ihr könnt bei den meisten Shootings zwischen einer Homestory, einem Outdoor-oder einem Studioshooting wählen. Mein Studio befindet sich in Oerlinghausen.
                 </p>
                 <p>
-                    Für Familien mit kleinen Kindern empfehle ich besonders Outdoor-Shootings oder eine Homestory. Zu Hause haben sie ihren Safe Place. Draußen ist der Rahmen neutraler – sie dürfen rennen, entdecken und einfach Kind sein.
+                    Für Familien mit kleinen Kindern empfehle ich Outdoor-Shootings oder eine Homestory. Zu Hause haben sie ihren Safe Place, wodurch sie sich einfach direkt wohler fühlen. Draußen ist der Rahmen neutraler. Beides kann helfen, sich auf die ohnehin schon ungewohnte Situation, einzulassen.
+                </p>
+                <p>
+                    Newbornshootings biete ich als Homestory an.
                 </p>
             </div>
         ),
@@ -46,7 +49,7 @@ const sections = [
                     href="https://wa.me/4915257120398"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center space-x-3 text-black border-b border-black/10 pb-2 hover:border-black:border-white transition-all group cursor-pointer"
+                    className="inline-flex items-center space-x-3 text-black border-b border-black/10 pb-2 hover:border-black transition-all group cursor-pointer"
                 >
                     <span className="font-sans text-[11px] tracking-[0.2em] uppercase">WhatsApp Anfrage senden</span>
                     <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" strokeWidth={1} />
