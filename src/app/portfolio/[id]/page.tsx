@@ -64,7 +64,7 @@ const categoryDetails: Record<string, CategoryData & { images: string[] }> = {
             "/images/Schwangerschaft/FamilieRempel-20.jpg", "/images/Schwangerschaft/FamilieZagorny-37.jpg",
             "/images/Schwangerschaft/FamilieZagorny-27.jpg", "/images/Schwangerschaft/Jessi_Jeff-14.jpg",
             "/images/Schwangerschaft/FamilieZagorny-24_2.jpg", "/images/Schwangerschaft/FamilieZagorny-26.jpg",
-            "/images/Schwangerschaft/FamilieZagorny-24.jpg", "/images/Schwangerschaft/FamilieRempel-33.jpg",
+            "/images/Schwangerschaft/FamilieRempel-33.jpg",
             "/images/Schwangerschaft/Jessi_Jeff-17.jpg", "/images/Schwangerschaft/Lisa_Lukas-38.jpg",
             "/images/Schwangerschaft/FamilieZagorny-19.jpg", "/images/Schwangerschaft/FamilieZagorny-14.jpg",
             "/images/Schwangerschaft/Jessi_Jeff-33.jpg", "/images/Schwangerschaft/Jessi_Jeff-32.jpg",
