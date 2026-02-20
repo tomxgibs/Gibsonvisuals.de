@@ -18,7 +18,7 @@ export default function Header() {
                         alt="GIBSON VISUALS"
                         width={280}
                         height={36}
-                        className="h-9 w-auto dark:invert hover:opacity-70 transition-opacity duration-500"
+                        className="h-9 w-auto hover:opacity-70 transition-opacity duration-500"
                         priority
                     />
                 </Link>

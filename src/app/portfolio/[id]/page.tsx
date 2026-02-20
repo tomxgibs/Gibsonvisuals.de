@@ -169,12 +169,10 @@ export default function PortfolioDetail() {
     const nextCategoryId = categoryOrder[(currentIndex + 1) % categoryOrder.length];
     const nextCategory = categoryDetails[nextCategoryId];
 
-    // Use actual images from the category data
+    // Use actual images from the category data without forcing aspect ratio
     const galleryItems = data.images.map((img, i) => {
-        const aspectRatios = ["aspect-square", "aspect-[4/5]", "aspect-[3/4]"];
         return {
             src: img,
-            ratio: aspectRatios[i % aspectRatios.length],
             id: i,
         };
     });
@@ -188,10 +186,10 @@ export default function PortfolioDetail() {
                 transition={{ duration: 1.5 }}
                 className="text-center mb-16 mt-12 md:mt-24"
             >
-                <h1 className="text-black dark:text-white">
+                <h1 className="text-black">
                     {data.displayTitle}
                 </h1>
-                <div className="w-12 h-px bg-black/10 dark:bg-white/10 mx-auto mt-8" />
+                <div className="w-12 h-px bg-black/10 mx-auto mt-8" />
             </motion.div>
 
             {/* Grid: Forced minimum 2 columns on mobile */}
@@ -205,14 +203,16 @@ export default function PortfolioDetail() {
                         transition={{ duration: 0.8, delay: (index % 3) * 0.05 }}
                         className="break-inside-avoid relative overflow-hidden bg-neutral-100"
                     >
-                        <div className={`relative ${item.ratio} w-full pointer-events-none`}>
+                        <div className="relative w-full pointer-events-none">
                             <Image
                                 src={item.src}
                                 alt={`${data.title} sample ${item.id + 1}`}
-                                fill
+                                width={800}
+                                height={1200}
                                 sizes="(max-width: 768px) 50vw, 33vw"
-                                className="object-cover"
-                                loading="lazy"
+                                className="w-full h-auto"
+                                priority={index < 4}
+                                loading={index >= 4 ? "lazy" : undefined}
                             />
                         </div>
                     </motion.div>
@@ -220,7 +220,7 @@ export default function PortfolioDetail() {
             </div>
 
             {/* Bottom Navigation: High Contrast, Simplified */}
-            <div className="mt-32 border-t border-black/5 dark:border-white/5 pt-16 flex flex-col md:flex-row justify-between items-center text-[10px] md:text-[11px] tracking-[0.25em] font-sans uppercase text-black dark:text-gray-100 w-full gap-10">
+            <div className="mt-32 border-t border-black/5 pt-16 flex flex-col md:flex-row justify-between items-center text-[10px] md:text-[11px] tracking-[0.25em] font-sans uppercase text-black w-full gap-10">
                 <Link
                     href="/"
                     className="flex items-center space-x-3 hover:opacity-40 transition-opacity group font-normal"

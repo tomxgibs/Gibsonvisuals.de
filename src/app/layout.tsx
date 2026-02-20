@@ -17,8 +17,21 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "GIBSONVISUALSFOTOGRAFIE | Portfolio",
-  description: "Authentische Fotografie von Kiara Gibson - Paare, Hochzeiten, Familien.",
+  title: "GIBSONVISUALSFOTOGRAFIE | Kiara Gibson",
+  description: "Authentische Fotografie von Kiara Gibson in Oerlinghausen, Bielefeld und ganz NRW. Spezialisiert auf emotionale Momente: Paare, Hochzeiten, Familien und Newborn Shootings.",
+  keywords: ["Fotografin Oerlinghausen", "Fotograf Bielefeld", "Hochzeitsfotograf NRW", "Paarshooting", "Newborn Fotografie", "Familienfotos", "Kiara Gibson"],
+  openGraph: {
+    title: "GIBSONVISUALSFOTOGRAFIE | Kiara Gibson",
+    description: "Authentische Fotografie von Kiara Gibson in NRW.",
+    url: "https://gibsonvisuals.de",
+    siteName: "Gibsonvisualsfotografie",
+    locale: "de_DE",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
@@ -29,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="de" className="scroll-smooth">
       <body
-        className={`${cormorant.variable} ${montserrat.variable} font-sans antialiased bg-white dark:bg-[#0f0f0f] text-[#1a1a1a] dark:text-white transition-colors duration-300 flex flex-col min-h-screen`}
+        className={`${cormorant.variable} ${montserrat.variable} font-sans antialiased bg-white text-[#1a1a1a] transition-colors duration-300 flex flex-col min-h-screen`}
       >
         <Header />
         <main className="flex-grow">

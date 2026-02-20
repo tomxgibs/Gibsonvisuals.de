@@ -29,10 +29,10 @@ export default function About() {
                     transition={{ duration: 1.2, delay: 0.2 }}
                     className="lg:col-span-7"
                 >
-                    <h1 className="mb-10 text-black dark:text-white">
+                    <h1 className="mb-10 text-black">
                         Hi, ich bin Kiara
                     </h1>
-                    <div className="space-y-6 text-black dark:text-white max-w-2xl">
+                    <div className="space-y-6 text-black max-w-2xl">
                         <p>
                             Ich lebe mit meiner Familie - mein Mann und 2 wundervolle Kinder - in Oerlinghausen bei Bielefeld. Neben dem Mama-sein liebe ich es, kreativ zu sein und Menschen zu begegnen. In der Fotografie verbinden sich für mich genau diese beiden Dinge – der Kontakt zu Menschen und die Kreativität.
                         </p>
@@ -45,7 +45,7 @@ export default function About() {
                     </div>
                     <div className="mt-12">
                         <a
-                            className="text-[11px] uppercase tracking-[0.3em] font-sans border-b border-black/20 dark:border-white/20 pb-1 hover:border-black dark:hover:border-white transition-colors cursor-pointer text-black dark:text-white"
+                            className="text-[11px] uppercase tracking-[0.3em] font-sans border-b border-black/20 pb-1 hover:border-black:border-white transition-colors cursor-pointer text-black"
                             href="https://wa.me/4915257120398"
                             target="_blank"
                             rel="noopener noreferrer"

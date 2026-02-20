@@ -38,7 +38,7 @@ export default function Home() {
             </Link>
             <div className="mt-4 md:mt-8 text-center uppercase tracking-[0.2em]">
               <Link href={`/portfolio/${category.id}`} className="inline-block">
-                <h3 className="text-[10px] md:text-xs font-sans font-normal text-black dark:text-white hover:opacity-50 transition-opacity">
+                <h3 className="text-[10px] md:text-xs font-sans font-normal text-black hover:opacity-50 transition-opacity">
                   {category.title}
                 </h3>
               </Link>

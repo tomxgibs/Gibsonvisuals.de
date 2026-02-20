@@ -10,7 +10,6 @@ html {
 
   --color-primary: #1a1a1a;
   --color-background-light: #ffffff;
-  --color-background-dark: #0f0f0f;
 }
 
 :root {
@@ -23,10 +22,6 @@ html {
   --foreground: #1a1a1a;
 }
 
-.dark {
-  --background: #0f0f0f;
-  --foreground: #ffffff;
-}
 
 body {
   background: var(--background);
