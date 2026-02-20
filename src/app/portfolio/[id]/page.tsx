@@ -201,7 +201,7 @@ export default function PortfolioDetail() {
                         key={item.id}
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
-                        viewport={{ once: true, margin: "-50px" }}
+                        viewport={{ once: true, margin: "-10px" }}
                         transition={{ duration: 0.8, delay: (index % 3) * 0.05 }}
                         className="break-inside-avoid relative overflow-hidden bg-neutral-100"
                     >
@@ -229,7 +229,7 @@ export default function PortfolioDetail() {
                     <span>Portfolio</span>
                 </Link>
 
-                <div className="hidden md:flex items-center space-x-6 text-[9px] opacity-20">
+                <div className="hidden md:flex items-center space-x-6 text-[9px] opacity-50">
                     <div className="w-12 h-px bg-current" />
                     <span>{currentIndex + 1} / 06</span>
                     <div className="w-12 h-px bg-current" />

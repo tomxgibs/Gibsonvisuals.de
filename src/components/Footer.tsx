@@ -31,7 +31,7 @@ export default function Footer() {
                     <Instagram className="w-5 h-5" strokeWidth={1.5} />
                 </motion.a>
 
-                <p className="text-[9px] uppercase tracking-[0.3em] text-black/40 dark:text-white/40 font-sans">
+                <p className="text-[9px] uppercase tracking-[0.3em] text-black/70 dark:text-white/70 font-sans">
                     Copyright © 2026 Gibsonvisualsfotografie.
                 </p>
             </div>

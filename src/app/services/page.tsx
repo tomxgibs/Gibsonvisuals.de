@@ -78,12 +78,12 @@ export default function Services() {
                         key={section.title}
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
-                        viewport={{ once: true, margin: "-100px" }}
+                        viewport={{ once: true, margin: "-20px" }}
                         transition={{ duration: 1 }}
                         className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12"
                     >
                         <div className="md:col-span-1">
-                            <h2 className="text-black dark:text-white opacity-40">
+                            <h2 className="text-black dark:text-white opacity-70">
                                 {section.title}
                             </h2>
                         </div>
